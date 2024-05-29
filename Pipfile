@@ -4,7 +4,6 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-fastapi = {extras = ["all"], version = "*"}
 psycopg2-binary = "*"
 sqlalchemy = "==1.4"
 passlib = {extras = ["bcrypt"], version = "*"}
@@ -13,6 +12,8 @@ tree-sitter = "*"
 gitpython = "*"
 tree-sitter-python = {git = "git+https://github.com/tree-sitter/tree-sitter-python.git"}
 firebase-admin = "*"
+pipfile = "*"
+fastapi = {extras = ["all"], version = "*"}
 
 [dev-packages]
 
