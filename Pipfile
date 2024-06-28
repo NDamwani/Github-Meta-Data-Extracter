@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+psycopg2-binary = "*"
+sqlalchemy = "==1.4"
+passlib = {extras = ["bcrypt"], version = "*"}
+python-jose = {extras = ["cryptography"], version = "*"}
+tree-sitter = "*"
+gitpython = "*"
+tree-sitter-python = {git = "git+https://github.com/tree-sitter/tree-sitter-python.git"}
+firebase-admin = "*"
+pipfile = "*"
+fastapi = {extras = ["all"], version = "*"}
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
